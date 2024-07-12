@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("img/back.jpg");
+    background-color: aqua;
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 62px;
+}
+
+nav img {
+    /* color: red; */
+    position: relative;
+    width: 144px;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.hero {
+    color: aliceblue;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero :first-child {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero :nth-child(1) {
+    font-size: math;
+    text-align: center;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    background-color: grey;
+    height: 7px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(116, 100, 100, 0.436);
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: 2px solid rgba(23, 23, 23, 0.2);
+    padding: 3px 23px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.main input {
+    padding: 7px 108px 8px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border: 2px solid rgba(24, 22, 22, 0.7);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    width: 30vw;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 73px;
+    right: 70px;
+    width: 21vw;
+
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first>div :first-child {
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+section.first>div:nth-child(1) {
+    font-size: 20px;
+
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faqbox:hover{
+    background-color: red;
+}
+.faqbox svg{
+    filter: invert(1);
+}
+.faqbox{
+    display: flex;
+    padding: 24px;
+    background-color: gray;
+    max-width: 60vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor:pointer
+
+}
+.faq h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+footer{
+   
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+   padding: 14px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+   
+}
+footer a{
+    color: white;
+}
+footer .quetions{
+    padding: 34px 0;
+}
